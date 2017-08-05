@@ -1,4 +1,4 @@
-# RIBOSOME [![Build Status](https://travis-ci.org/sustrik/ribosome.svg?branch=master)](https://travis-ci.org/sustrik/ribosome)
+# RIBOSOMEJS [![Build Status](https://travis-ci.org/01BTC10/ribosomejs.svg?branch=master)](https://travis-ci.org/01BTC10/ribosomejs)
 
 A simple generic code generation tool.
 
