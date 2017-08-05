@@ -1,0 +1,42 @@
+{
+  "name": "ribosomejs",
+  "version": "1.17.0",
+  "description": "RIBOSOME [![Build Status](https://travis-ci.org/sustrik/ribosome.svg?branch=master)](https://travis-ci.org/sustrik/ribosome) ========",
+  "bin": {
+    "ribosomejs": "./ribosome.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "files": [
+    "ribosome.vim",
+    "examples/errors.dna"
+  ],
+  "scripts": {
+    "test": "make -C tests",
+    "example": "cd examples && ../ribosome.js errors.dna && rm -rf build && mkdir build && cd build && cmake .. && make && ./test_mystrerror"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01BTC10/ribosomejs.git"
+  },
+  "keywords": [
+    "generator",
+    "template"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/01BTC10/ribosomejs/issues"
+  },
+  "homepage": "https://github.com/01BTC10/ribosomejs#readme",
+  "dependencies": {
+    "eslint": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

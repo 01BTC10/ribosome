@@ -1,12 +1,8 @@
 *.rna
-
-examples/blue.txt
-examples/green.txt
-examples/red.txt
-examples/yellow.txt
-examples/complex.cpp
-examples/mycompiler
-examples/errno.h
-examples/strerror.c
+examples/*.h
+examples/*.c
+examples/*.txt
+examples/build
+node_modules
 
 tests/*.log
