@@ -1,18 +1,8 @@
-os:
-  - linux
-
-sudo: required
-
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y python3
-
-branches:
-  only:
-    - master
-
+language:      node_js
+node_js:
+  - "8"
+before_script:
+  - npm install
 script:
-  - cd tests && make
-
-notifications:
-  email: false
+  - npm test
+  
