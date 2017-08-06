@@ -98,7 +98,7 @@ for(let e in errors) {
 .}
 
 ./!output('CMakeLists.txt')
-.cmake_minimum_required (VERSION 3.9)
+.cmake_minimum_required (VERSION 3.2)
 .project (MyStrerror)
 .set (CMAKE_EXPORT_COMPILE_COMMANDS 1)
 .add_library(mystrerror STATIC mystrerror.c myerrno.h)
