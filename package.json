@@ -1,6 +1,6 @@
 {
   "name": "ribosomejs",
-  "version": "1.17.2",
+  "version": "1.17.3",
   "description": "RIBOSOME [![Build Status](https://travis-ci.org/sustrik/ribosome.svg?branch=master)](https://travis-ci.org/sustrik/ribosome) ========",
   "bin": {
     "ribosomejs": "./ribosome.js"
