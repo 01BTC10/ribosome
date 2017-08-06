@@ -10,7 +10,8 @@
   },
   "files": [
     "ribosome.vim",
-    "examples/errors.dna"
+    "examples/errors.dna",
+    "ribosomejs"
   ],
   "scripts": {
     "test": "make -C tests",
