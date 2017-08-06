@@ -2,6 +2,7 @@
   "name": "ribosomejs",
   "version": "1.17.3",
   "description": "RIBOSOME [![Build Status](https://travis-ci.org/sustrik/ribosome.svg?branch=master)](https://travis-ci.org/sustrik/ribosome) ========",
+  "main": "ribosomejs",
   "bin": {
     "ribosomejs": "./ribosome.js"
   },
@@ -10,8 +11,7 @@
   },
   "files": [
     "ribosome.vim",
-    "examples/errors.dna",
-    "ribosomejs"
+    "examples/errors.dna"
   ],
   "scripts": {
     "test": "make -C tests",
