@@ -1,10 +1,9 @@
 # RIBOSOMEJS [![Build Status](https://travis-ci.org/01BTC10/ribosomejs.svg?branch=master)](https://travis-ci.org/01BTC10/ribosomejs)
 
-> A simple generic code generation tool.
+## A simple generic code generation tool.
 
-> Forked from [here](https://github.com/sustrik/ribosome/)
-
-> This repository include only the javascript binary, javascript tests and javascript examples. The main goal of this fork is to add a javascript only npm package.
+Forked from [here](https://github.com/sustrik/ribosome/)
+This repository include only the javascript binary, javascript tests and javascript examples. The main goal of this fork is to add a javascript only npm package.
 
 ## Installation
 
@@ -22,8 +21,8 @@ $ ribosomejs examples/errors.dna
 
 This example uses JavaScript as the control language:
 
-```
 readysteady.js.dna:
+```
 .#include <stdio.h>
 .
 .int main() {
