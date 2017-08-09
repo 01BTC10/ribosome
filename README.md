@@ -33,7 +33,6 @@ for (i=3; i>0; i--) {
 .    printf("Go!\n");
 .    return 0;
 .}
-
 ```
 
 To generate the code do the following:
